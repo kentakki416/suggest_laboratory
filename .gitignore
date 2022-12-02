@@ -21,4 +21,4 @@
 go.work
 
 # dataフォルダを無視する
-data/
+db/
