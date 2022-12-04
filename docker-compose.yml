@@ -11,7 +11,7 @@ services:
     stdin_open: true
     volumes:
       - ./frontend/react-app:/app/frontend
-    command: sh -c "cd /app/frontend && yarn install && yarn start"
+    command: sh -c "cd /app/frontend && yarn start"
     ports:
       - 3000:3000
 
