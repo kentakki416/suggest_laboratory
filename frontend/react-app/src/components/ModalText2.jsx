@@ -11,7 +11,7 @@ export default function ModalText2() {
   const classes = useStyles();
   return (
     <Typography id="modal-modal-description" className={classes.modalText}>
-      各研究室のホームページと過去の卒業論文からキーワードを抽出しました<br/><br />
+      各研究室のホームページと過去の卒業論文からキーワードを抽出しました<br/><br /><br/>
       あなたの興味のあるキーワードにマッチする研究室を提案します!
     </Typography>
   )

@@ -42,6 +42,7 @@ export default function ModalText1() {
     それぞれのパーソナリティに適した環境が存在するという理論です。
     <br />
     <br />
+    <br />
     この理論を応用してあなたのパーソナリティにあった研究室を提案します!
   </Typography>
   )
