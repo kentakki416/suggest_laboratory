@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
@@ -58,11 +59,15 @@ const useStyles = makeStyles({
   },
   startButton: {
     textAlign: 'center',
-    margin: '20px'
+    margin: '20px',
   },
   bold: {
     fontWeight: 'bold',
   },
+  linkButton: {
+    textDecoration: 'none',
+    color: 'white',
+  }
 });
 
 const SuggestButton = (props) =>{
@@ -90,7 +95,9 @@ const SuggestButton = (props) =>{
           
           {modalSwitch(props.num)}
           <div className={classes.startButton}> 
-            <Button variant="contained" color={props.color}>始める</Button>
+            <Button variant="contained" color={props.color}>
+              <Link to={'judge_personarity'} className={classes.linkButton}>始める</Link>
+            </Button>
           </div>
         </Box>
       </Modal>
