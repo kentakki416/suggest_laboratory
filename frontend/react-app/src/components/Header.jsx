@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function Header() {
+export default function Header(props) {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -33,7 +33,7 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Home
+            {props.header}
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
