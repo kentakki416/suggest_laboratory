@@ -5,6 +5,7 @@ const useStyles = makeStyles({
   button: {
     marginTop: '2rem',
     textAlign: 'center',
+    fontSize:"13px"
   },
 });
 
@@ -22,7 +23,7 @@ export default function Updowntext(props) {
           }
         }`}
       </style>
-      <div className={classes.button} style={{animation: `toUpdown 1s infinite alternate ease-in-out`}}>↑　{props.recomend}</div>  
+      <div className={classes.button} style={{animation: `toUpdown 1s infinite alternate ease-in-out`}}>{props.recomend}</div>  
     </div>
 
   )
