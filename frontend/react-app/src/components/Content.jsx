@@ -26,7 +26,7 @@ export default function Content() {
           <SuggestButton 
             text="ホランドの理論を使って提案" 
             color="secondary" 
-            recomend="興味のあるテーマが分からない人向け"
+            recomend="↑興味のあるテーマが分からない人向け"
             modalTitle="ホランドの理論とは" 
             num={1}
           />
@@ -35,7 +35,7 @@ export default function Content() {
           <SuggestButton 
             text="キーワード検索で提案" 
             color={"primary"} 
-            recomend="興味のあるテーマを分かっている人向け"
+            recomend="↑興味のあるテーマを分かっている人向け"
             modalTitle="キーワード検索とは"
             num={2}
           />
